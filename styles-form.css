@@ -1,0 +1,64 @@
+
+body {
+  background-color: #004361;
+  background: #00216399 url(https://img.freepik.com/fotos-gratis/diversas-pessoas-em-reuniao-de-negocios-de-inicializacao_53876-146138.jpg?w=740&t=st=1655842405~exp=1655843005~hmac=9e6b84899e0cdd00d5b5f56abc84646376124a70f7e774949cee30f0501a4e1f) no-repeat fixed;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: Arial;
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: Courier;
+  color: #004361;
+}
+
+#description {
+  text-align: center;
+  font-family: Courier New;
+  font-size: 1.1em;
+  color: #002341;
+  background-color: #EEEEEE;
+  padding: 10px 0;
+  border-radius: 15px;
+}
+
+form {
+  background-color: #001829;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+ul {
+  list-style-position: outside;
+  list-style-type:none;
+  padding: 0 5px;
+  margin-top: 0;
+}
+
+input[type=text], #email, [type=number], select, textarea {
+  width: 100%;
+  margin: 1px 0;
+}
+
+#submit {
+  width: 100%;
+  background-color: #FF9000;
+  border: 0 #FF9000;
+  margin: auto;
+  text-align: center;
+  height: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#submit:active {
+  background-color: #EE7000;
+}
+
+
+

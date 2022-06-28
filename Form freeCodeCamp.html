@@ -1,0 +1,34 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <title="freeCodeCamp Survey Form">
+      <meta name="viewport" contet="width = device - width, initial-scale = "1.0"> 
+      <meta chartset="utf-8">
+      <link rel="stylesheet" type="text/css" href="styles-form.css">
+    </head>
+    <body>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">That's a certification project to a freeCodeCamp course.</p>
+      <form id="survey-form" action="link-to-submit">
+        <label id="name-label">Name: <input id="name" type="text" placeholder="Digit your name" required></label>
+        <p><label id="email-label">E-mail: <input id="email" type="email" placeholder="Digit your e-mail" required></label></p>
+        <label id="number-label">Age (optional): <input id="number" type="number" patter="0-9" max="99" min="12" placeholder="Years"></label>
+        <p><label id="dropdown-label">What's your occupation today? <select id="dropdown">
+           <option>Select</option>
+           <option>Student</option>
+           <option>Employee</option>
+           <option>Other</option>
+        </select></label></p>
+        <label id="code">Do you already know code? <input id="code-yes-no" type="radio" name="yes-no-code" value="yes-code">Yes <input id="yes-no-code" type="radio" name="yes-no-code" value="no-code">No </label>
+        <p><label id="recomedation">Do you recommended freeCodeCamp to a friend? <input id="recomedation-yes-no" type="radio" name="recomedation-yes-no" value="yes-recomedation">Yes <input id="recomedation-yes-no" type="radio" name="recomedation-yes-no" value="no-recomedation">No </label></p>
+      <p><label name="searchig">Why do you wanted the freeCodeCamp? <ul>
+        <li><input name="searching" type="checkbox" value="learning-code">Learning code</li>
+        <li><input name="searching" type="checkbox" value="indication">Indication by a friend</li>
+        <li><input name="searching" type="checkbox" value="other">Other</li>
+      </ul></label>
+      <label id="suggestions">Do you have any suggestions? <textarea placeholder="Please give us a suggestion!" raws="3" cols="30"></textarea>
+      <p><button id="submit" type="sumbit">Send Survey</button></p>
+      </form>
+      </div>
+    </body>
+  </html>
